@@ -11,10 +11,47 @@ class ArticlesController extends Controller
         $articles = Article::latest()->get();
         return view('articles.index',['articles'=>$articles]);
     }
-    public function show($id)
+
+    public function show(Article $article)
     {
-        // dd($id);
-        $article = Article::find($id);
         return view('articles.show',['article'=>$article]);
     }
+
+    public function create()
+    {
+        //Show a view to create a new resource
+        return view('articles.create');
+    }
+
+    public function store()
+    {
+        Article::create($this->validateArticle());
+        return redirect('/articles');
+    }
+
+    public function edit(Article $article)
+    {
+        return view('articles.edit', compact('article'));
+    }
+
+    public function update(Article $article) //oud was $id
+    {
+        $article->update($this->validateArticle());
+        return redirect('/articles/' . $article->id);
+    }
+
+    protected function validateArticle()
+    {
+        return request()->validate([
+            'title' =>'required',
+            'excerpt' =>'required',
+            'body' =>'required',
+        ]);
+    }
+
+    public function destroy()
+    {
+        //Delete the resource
+    }
+
 }
