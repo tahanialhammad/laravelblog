@@ -9,12 +9,12 @@
 
 
 ## Artisan.
-php artisan make:model Article -m 
-php artisan migrate
-php artisan tinker
-php artisan make:controller ArticlesController
-php artisan migrate:fresh
-php artisan make:model Article -f
+- php artisan make:model Article -m 
+- php artisan migrate
+- php artisan tinker
+- php artisan make:controller ArticlesController
+- php artisan migrate:fresh
+- php artisan make:model Article -f
 
 ## About Laravel
 
