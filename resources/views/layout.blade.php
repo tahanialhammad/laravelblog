@@ -28,6 +28,9 @@
         <li class="nav-item">
           <a class="nav-link {{ Request::path() === '/' ? 'active' : ''}}" href="/articles">Articles</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::path() === '/articles/create' ? 'active' : ''}}" href="/articles/create">New Articles</a>
+        </li>
       </ul>
     </div>
   </div>

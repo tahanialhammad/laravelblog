@@ -15,6 +15,7 @@
 - php artisan make:controller ArticlesController
 - php artisan migrate:fresh
 - php artisan make:model Article -f
+- php artisan make:model Tag -m
 
 ## About Laravel
 
