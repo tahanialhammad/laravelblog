@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('header-feature')
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

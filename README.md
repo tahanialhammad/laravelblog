@@ -16,6 +16,9 @@
 - php artisan migrate:fresh
 - php artisan make:model Article -f
 - php artisan make:model Tag -m
+- composer require laravel/ui --dev
+- php artisan ui vue --auth
+- npm install && npm run dev
 
 ## About Laravel
 
