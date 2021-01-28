@@ -15,5 +15,12 @@
         <a href="{{ route('articles.index', [ 'tag'=> $tag->name ]) }}">{{ $tag->name }}</a>
     @endforeach
     </p>
+
+    @can ('update-article', $article)
+    <form action="/articles/{{ $article->id }}/edit" method="GET">
+    @csrf
+    <button class="btn btn-primary" >Upadet Article</button>
+    </form>
+    @endcan
 </div>
 @endsection
