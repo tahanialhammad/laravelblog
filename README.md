@@ -9,7 +9,7 @@
 
 ## About LaravelHotel
 
-laravel hotel booking system in feb 2021
+laravel Blog / feb 2021
 
 - [Tahani Alhammad linkedIn ](https://www.linkedin.com/in/tahanialhammad/).
 - [Tahani Alhammad Behance ](https://www.behance.net/tahani-ali-alhammad).
