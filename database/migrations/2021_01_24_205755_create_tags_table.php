@@ -21,8 +21,8 @@ class CreateTagsTable extends Migration
 
         Schema::create('article_tag', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('article_id')->references('id')->on('articles')->onDelete('cascade');
-            $table->foreignId('tag_id')->references('id')->on('tags')->onDelete('cascade');
+            $table->foreignId('article_id')->references('id')->on('articles');
+            $table->foreignId('tag_id')->references('id')->on('tags');
             $table->timestamps();
             $table->unique(['article_id','tag_id']);
             $table->softDeletes();
