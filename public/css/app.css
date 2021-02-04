@@ -10944,8 +10944,12 @@ a.text-dark:focus {
   }
 }
 
-body {
-  background-color: aquamarine;
+.carousel-item {
+  height: 70vh;
+  overflow: hidden;
+  color: white;
+  background-position: center;
+  background-size: cover;
 }
 
 
