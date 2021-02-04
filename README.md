@@ -26,8 +26,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Code Steps
 
-
-## Artisan.
 - php artisan make:model Article -m 
 - php artisan migrate
 - php artisan tinker
@@ -36,5 +34,5 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - php artisan make:model Article -f
 - php artisan make:model Tag -m
 - composer require laravel/ui --dev
-- php artisan ui vue --auth
+- php artisan ui vue --auth-
 - npm install && npm run dev

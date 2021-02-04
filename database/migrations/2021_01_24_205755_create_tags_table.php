@@ -24,8 +24,8 @@ class CreateTagsTable extends Migration
             $table->foreignId('article_id')->references('id')->on('articles')->onDelete('cascade');
             $table->foreignId('tag_id')->references('id')->on('tags')->onDelete('cascade');
             $table->timestamps();
-
             $table->unique(['article_id','tag_id']);
+            $table->softDeletes();
         });
     }
 
