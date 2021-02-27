@@ -18,14 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/about', function () {
-//   //  $articles = App\Models\Article::latest()->get();
-//    // return $article;
-//     return view('about',[
-//         // 'articles'=>  $articles
-//         'articles'=> App\Models\Article::take(3)->latest()->get()
-//     ]);
-// });
+Route::get('/about', function () {
+    return view('about');
+});
+
+
 Route::get('/articles', 'App\Http\Controllers\ArticlesController@index')->name('articles.index');
 Route::post('/articles', 'App\Http\Controllers\ArticlesController@store');
 Route::get('/articles/create', 'App\Http\Controllers\ArticlesController@create');

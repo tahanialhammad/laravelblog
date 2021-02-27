@@ -12,16 +12,6 @@
         <p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo.</p>
     </div>
     <div class="container col-md-4">
-        <ul class="list-group">
-        @foreach ($articles as $article)
-            <li class="list-group-item">
-                <h3><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></h3>
-                <p>{{ $article->excerpt }}</p>
-            </li>
-        @endforeach
-        </ul>
-
-
         <div id="stwo-col">
             <div class="sbox1">
                 <h2>Etiam rhoncus</h2>
@@ -44,5 +34,5 @@
         </div>
     </div>
 </div>
-</div>
+
 @endsection
