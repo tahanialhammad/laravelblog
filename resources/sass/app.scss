@@ -7,10 +7,23 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body{background-color: rgb(226, 198, 43);}
 .carousel-item{
-    height: 70vh;
+    height: 80vh;
     overflow: hidden;
     color: white;
     background-position: center;
     background-size: cover;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }
