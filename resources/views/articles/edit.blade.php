@@ -22,6 +22,17 @@
     <label for="bodyTextarea" class="form-label">Article</label>
     <textarea class="form-control" id="bodyTextarea" name="body" rows="3" required>{{ $article->body }}</textarea>
   </div>
+
+  <!-- <div class="mb-3">
+    <select class="form-select" aria-label="Select Tags" name="tags[]" multiple>
+        @foreach ($tags as $tag)
+        <option value="{{ $tag->id }}">{{ $tag->name }}</option>
+        @endforeach
+    </select>
+  </div> -->
+
+
+
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 

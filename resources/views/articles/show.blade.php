@@ -9,6 +9,7 @@
     </div>
     <img src="/images/banner.jpg" alt="" class="img-fluid" />
     <p>{{ $article->body }}</p>
+
     <p>
     @foreach ($article->tags as $tag)
         <!-- <a href="/articles?tag={{ $tag->name }}">{{ $tag->name }}</a> -->
@@ -21,6 +22,8 @@
     @csrf
     <button class="btn btn-primary" >Upadet Article</button>
     </form>
+
     @endcan
 </div>
 @endsection
+

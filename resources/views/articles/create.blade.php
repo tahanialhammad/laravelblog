@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('content')
 
 <div class="container">
@@ -19,6 +20,7 @@
     <label for="bodyTextarea" class="form-label">Article</label>
     <textarea class="form-control" id="bodyTextarea" name="body" rows="3" required></textarea>
   </div>
+
   <div class="mb-3">
     <select class="form-select" aria-label="Select Tags" name="tags[]" multiple>
         @foreach ($tags as $tag)
