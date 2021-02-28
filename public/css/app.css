@@ -10944,6 +10944,21 @@ a.text-dark:focus {
   }
 }
 
+.upper-bar {
+  background-color: #08526d;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ec1c23;
+}
+
+.navbar-light .navbar-brand {
+  color: #ec1c23;
+}
+
 .carousel-item {
   height: 80vh;
   overflow: hidden;
