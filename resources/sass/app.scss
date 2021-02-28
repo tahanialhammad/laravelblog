@@ -17,11 +17,51 @@
 
 .navbar-light .navbar-brand{color: $secolor;}
 
+//Main slider
+.slider .carousel-inner h1{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    max-width: 50%;
+    line-height: 1.5;
+}
+
+
+.slider .carousel-inner h1 span{
+    background-color: $secolor;
+    padding:2px 10px;
+}
+
+.overlay{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+    top: 0;
+    left: 0;
+   background-color: rgba(0,0,0,.6);
+    z-index: 2;
+}
 
 .carousel-item{
-    height: 80vh;
+    max-height: 80vh;
     overflow: hidden;
     color: white;
-    background-position: center;
-    background-size: cover;
+}
+
+
+//Features
+.features i{
+    background-color: $secolor;
+    color: white;
+    // border-radius: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+.features h3{color: $prcolor;}
+.features p{
+    color: gray;
+    margin-bottom: 30px;
 }
