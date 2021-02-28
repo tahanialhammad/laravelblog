@@ -7,6 +7,16 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+//NavBar
+.upper-bar{
+    background-color: $prcolor;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: $secolor;}
+
+.navbar-light .navbar-brand{color: $secolor;}
+
 
 .carousel-item{
     height: 80vh;
