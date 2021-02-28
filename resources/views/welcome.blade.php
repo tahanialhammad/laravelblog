@@ -28,7 +28,35 @@
         </div>
     </div>
     <!-- End Slider -->
-</div>
+    <!-- Start Features -->
+    <div class="features py-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <i class="fas fa-home fa-2x rounded-circle"></i>
+                    <h3>Greate idea</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <i class="fas fa-drafting-compass fa-2x rounded-circle"></i>
+                    <h3>Greate idea</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <i class="fas fa-cogs fa-2x rounded-circle"></i>
+                    <h3>Greate idea</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <i class="far fa-lightbulb fa-2x rounded-circle"></i>
+                    <h3>Greate idea</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
 
+</div>
 
 @endsection
