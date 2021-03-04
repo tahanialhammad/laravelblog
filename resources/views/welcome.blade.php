@@ -57,6 +57,48 @@
     </div>
     <!-- End Features -->
 
+    <!-- Start Overview  -->
+    <div class="overview px-5 py-5 text-center">
+        <div class="container">
+            <h2 class="text-uppercase mb-4">Company Overview</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, incidunt veritatis dicta cumque, accusantium numquam modi delectus consequuntur itaque harum deleniti fugiat laudantium sed cupiditate quia iste laborum! Neque, harum?</p>
+            <h4 class="text-capitalize fw-lighter my-4">Lets start Today</h4>
+            <button class="text-uppercase btn btn-primary">View More</button>
+        </div>
+    </div>
+    <!-- End Overview  -->
+
+    <!-- Start Featured-Work  -->
+    <div class="featured-work text-center p-5">
+        <div class="container">
+            <h2 class="text-uppercase mb-4">Featured Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et, debitis est itaque nobis animi enim provident dolorem ullam eum officia soluta doloribus explicabo dolorum, magnam odit sint reiciendis porro.</p>
+
+            <ul class="nav my-4 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- End Featured-Work  -->
+
 </div>
 
 @endsection

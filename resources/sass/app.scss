@@ -65,3 +65,28 @@
     color: gray;
     margin-bottom: 30px;
 }
+
+//overview
+.overview{
+    background-color: #f0f5f7;
+    h4{letter-spacing: 4px;}
+}
+
+.btn-primary{
+    background-color: $secolor;
+    border-radius: 0;
+}
+.btn-primary:hover{  background-color: $prcolor;}
+//featured-work
+.featured-work ul li {
+    color: $secolor;
+    border:2px solid $prcolor;
+    margin: 0 2px;
+    padding: 2px 20px;
+}
+.featured-work ul li.active , .featured-work ul li:hover {
+    background-color: $secolor;
+    border-color: $secolor;
+    a{color: white;}
+}
+
