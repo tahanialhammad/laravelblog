@@ -11006,4 +11006,39 @@ a.text-dark:focus {
   margin-bottom: 30px;
 }
 
+.overview {
+  background-color: #f0f5f7;
+}
+
+.overview h4 {
+  letter-spacing: 4px;
+}
+
+.btn-primary {
+  background-color: #ec1c23;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #08526d;
+}
+
+.featured-work ul li {
+  color: #ec1c23;
+  border: 2px solid #08526d;
+  margin: 0 2px;
+  padding: 2px 20px;
+}
+
+.featured-work ul li.active,
+.featured-work ul li:hover {
+  background-color: #ec1c23;
+  border-color: #ec1c23;
+}
+
+.featured-work ul li.active a,
+.featured-work ul li:hover a {
+  color: white;
+}
+
 
