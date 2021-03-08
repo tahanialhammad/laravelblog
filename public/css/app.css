@@ -10992,9 +10992,9 @@ a.text-dark:focus {
   background-color: #ec1c23;
   color: white;
   margin-bottom: 10px;
-  height: 70px;
-  width: 70px;
-  line-height: 70px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
 }
 
 .features h3 {
@@ -11039,6 +11039,14 @@ a.text-dark:focus {
 .featured-work ul li.active a,
 .featured-work ul li:hover a {
   color: white;
+}
+
+.featured-work .row .col-md {
+  padding: 0;
+}
+
+.featured-work .row img {
+  width: 100%;
 }
 
 

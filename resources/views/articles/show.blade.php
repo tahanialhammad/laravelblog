@@ -5,25 +5,24 @@
 <div class="container">
     <div class="title">
         <h2>{{ $article->title }}</h2>
-        <span class="text-muted">Posted by {{ $article->user->name }} </span> </div>
+        <span class="text-muted">Posted by {{ $article->user->name }} </span>
     </div>
-    <img src="/images/banner.jpg" alt="" class="img-fluid" />
-    <p>{{ $article->body }}</p>
+</div>
+<img src="{{ $article->image }}" alt="{{ $article->title }}" class="img-fluid" />
+<p>{{ $article->body }}</p>
 
-    <p>
+<p>
     @foreach ($article->tags as $tag)
-        <!-- <a href="/articles?tag={{ $tag->name }}">{{ $tag->name }}</a> -->
-        <a href="{{ route('articles.index', [ 'tag'=> $tag->name ]) }}">{{ $tag->name }}</a>
+    <a href="{{ route('articles.index', [ 'tag'=> $tag->name ]) }}">{{ $tag->name }}</a>
     @endforeach
-    </p>
+</p>
 
-    @can ('update-article', $article)
-    <form action="/articles/{{ $article->id }}/edit" method="GET">
+@can ('update-article', $article)
+<form action="/articles/{{ $article->id }}/edit" method="GET">
     @csrf
-    <button class="btn btn-primary" >Upadet Article</button>
-    </form>
+    <button class="btn btn-primary">Upadet Article</button>
+</form>
 
-    @endcan
+@endcan
 </div>
 @endsection
-
