@@ -96,9 +96,16 @@
             </ul>
 
         </div>
+        <div class="row">
+            @foreach ($articles as $article)
+            <div class="col-md">
+                <img src="{{ $article->image }}" alt="{{ $article->title }}">
+            </div>
+            @endforeach
+        </div>
     </div>
     <!-- End Featured-Work  -->
 
-</div>
 
+</div>
 @endsection

@@ -10,7 +10,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Article extends Model
 {
     use HasFactory, SoftDeletes;
-    //protected $fillable =['title', 'excerpt', 'body']; //safed way
     protected $guarded =[];
 
     public function path()

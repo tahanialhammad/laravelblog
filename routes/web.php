@@ -15,8 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+      return view('welcome',[
+          'articles'=> App\Models\Article::take(4)->latest()->get()
+      ]);
+  });
 
 Route::get('/about', function () {
     return view('about');
