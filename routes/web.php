@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
       return view('welcome',[
-          'articles'=> App\Models\Article::take(4)->latest()->get()
+          'articles'=> App\Models\Article::take(3)->latest()->get()
       ]);
   });
 

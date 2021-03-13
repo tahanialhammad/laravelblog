@@ -28,28 +28,29 @@
         </div>
     </div>
     <!-- End Slider -->
+
     <!-- Start Features -->
     <div class="features py-3">
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-6 col-lg-3">
                     <i class="fas fa-home fa-2x rounded-circle"></i>
-                    <h3>Greate idea</h3>
+                    <h3>Duidelijke deal</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <i class="fas fa-drafting-compass fa-2x rounded-circle"></i>
-                    <h3>Greate idea</h3>
+                    <h3>Reagerend ontwerp</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <i class="fas fa-cogs fa-2x rounded-circle"></i>
-                    <h3>Greate idea</h3>
+                    <h3>Onderhoud</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <i class="far fa-lightbulb fa-2x rounded-circle"></i>
-                    <h3>Greate idea</h3>
+                    <h3>Goed idee</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
                 </div>
             </div>
@@ -60,10 +61,10 @@
     <!-- Start Overview  -->
     <div class="overview px-5 py-5 text-center">
         <div class="container">
-            <h2 class="text-uppercase mb-4">Company Overview</h2>
+            <h2 class="text-uppercase mb-4">Bedrijfsoverzicht</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, incidunt veritatis dicta cumque, accusantium numquam modi delectus consequuntur itaque harum deleniti fugiat laudantium sed cupiditate quia iste laborum! Neque, harum?</p>
-            <h4 class="text-capitalize fw-lighter my-4">Lets start Today</h4>
-            <button class="text-uppercase btn btn-primary">View More</button>
+            <h4 class="text-capitalize fw-lighter my-4">Laten we vandaag beginnen</h4>
+            <button class="text-uppercase btn btn-primary">Bekijk meer</button>
         </div>
     </div>
     <!-- End Overview  -->
@@ -71,12 +72,12 @@
     <!-- Start Featured-Work  -->
     <div class="featured-work text-center p-5">
         <div class="container">
-            <h2 class="text-uppercase mb-4">Featured Work</h2>
+            <h2 class="text-uppercase mb-4">Uitstekend werk</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et, debitis est itaque nobis animi enim provident dolorem ullam eum officia soluta doloribus explicabo dolorum, magnam odit sint reiciendis porro.</p>
 
             <ul class="nav my-4 justify-content-center">
                 <li class="nav-item active">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    <a class="nav-link active" aria-current="page" href="#">All</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -96,15 +97,42 @@
             </ul>
 
         </div>
-        <div class="row">
-            @foreach ($articles as $article)
-            <div class="col-md">
-                <img src="{{ $article->image }}" alt="{{ $article->title }}">
+        <div class="Shuffle-imgs">
+            <div class="row">
+                @foreach ($articles as $article)
+                <div class="col-md">
+                    <img src="{{ $article->image }}" alt="{{ $article->title }}">
+                </div>
+                @endforeach
             </div>
-            @endforeach
         </div>
     </div>
     <!-- End Featured-Work  -->
+
+    <!-- Start Latest Post  -->
+    <div class="latest-post text-center p-5">
+        <div class="container">
+            <h2 class="text-uppercase mb-4">Laatste artikels</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et, debitis est itaque nobis animi enim provident dolorem ullam eum officia soluta doloribus explicabo dolorum, magnam odit sint reiciendis porro.</p>
+            <div class="row">
+                @foreach ($articles as $article)
+                <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="{{ $article->image }}" alt="{{ $article->title }}" class="card-img-top">
+                    <div class="card-body text-start">
+                        <h5 class="card-title">{{ $article->title }}</h5>
+                        <!-- <h6 class="card-subtitle mb-2 text-muted">{{ $article->user->name }}</h6> -->
+                        <h6 class="card-subtitle mb-2 text-muted">{{ $article->created_at}}</h6>
+                        <p class="card-text text-truncate">{{ $article->body }}</p>
+                        <a href="{{ $article->path() }}" class="card-link">Verder lezen</a>
+                    </div>
+                </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+    <!-- End Latest Post  -->
 
 
 </div>
