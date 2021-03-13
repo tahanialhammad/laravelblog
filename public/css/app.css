@@ -11041,12 +11041,22 @@ a.text-dark:focus {
   color: white;
 }
 
-.featured-work .row .col-md {
+.featured-work .Shuffle-imgs .row {
+  margin: 0;
+}
+
+.featured-work .Shuffle-imgs .row .col-md {
   padding: 0;
 }
 
 .featured-work .row img {
   width: 100%;
+}
+
+/* All cards */
+
+.card-link {
+  color: #ec1c23;
 }
 
 
