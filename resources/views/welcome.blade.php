@@ -134,6 +134,47 @@
     </div>
     <!-- End Latest Post  -->
 
+    <!-- Start Testimonials 2 -->
+    <div class="testimonials">
+        <div class="overlay"></div>
+        <div class="container">
+            <div id="testimonialscarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonialscarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonialscarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="inner-item">
+                            <img src="http://themes.hody.co/html/bezel/images/testimonial-1.jpg" class="d-block" alt="...">
+                            <div class="carousel-caption">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="inner-item">
+                            <img src="http://themes.hody.co/html/bezel/images/testimonial-2.jpg" class="d-block" alt="...">
+                            <div class="carousel-caption">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialscarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialscarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials 2 -->
 
 </div>
 @endsection
