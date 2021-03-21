@@ -13,6 +13,10 @@
     <input type="text" class="form-control" id="titleInput" name="title" required>
   </div>
   <div class="mb-3">
+    <label for="imageurl" class="form-label">Article Image</label>
+    <input type="text" class="form-control" id="imageurl" name="image" required>
+  </div>
+  <div class="mb-3">
     <label for="excerpTextarea" class="form-label">Article excerpt</label>
     <textarea class="form-control" id="excerpTextarea" name="excerpt" rows="3" required></textarea>
   </div>

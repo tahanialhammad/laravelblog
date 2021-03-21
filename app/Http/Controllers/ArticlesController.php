@@ -33,7 +33,7 @@ class ArticlesController extends Controller
 
     public function store()
     {
-        $article = new Article($this->validateArticle(['title', 'excerpt', 'body'])); //more secure
+        $article = new Article($this->validateArticle(['title', 'excerpt', 'body', 'image'])); //more secure
         $article->user_id = auth()->id();
         $article->save();
         $article->tags()->attach(request('tags'));
@@ -60,6 +60,7 @@ class ArticlesController extends Controller
             'title' => 'required',
             'excerpt' => 'required',
             'body' => 'required',
+            'image' =>'required'
         ]);
     }
     public function destroy()
