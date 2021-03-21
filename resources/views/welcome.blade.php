@@ -2,7 +2,6 @@
 
 @section('content')
 
-<div class="landingPage">
     <!-- Start Slider -->
     <div class="slider">
         <div id="main-slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -205,7 +204,4 @@
     </div>
     <!-- End Contact-us -->
 
-
-
-</div>
 @endsection

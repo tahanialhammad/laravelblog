@@ -20,10 +20,11 @@ Route::get('/', function () {
       ]);
   });
 
-Route::get('/about', function () {
-    return view('about');
+  Route::get('/about', function () {
+    return view('about',[
+        'articles'=> App\Models\Article::take(3)->latest()->get()
+    ]);
 });
-
 
 Route::get('/articles', 'App\Http\Controllers\ArticlesController@index')->name('articles.index');
 Route::post('/articles', 'App\Http\Controllers\ArticlesController@store');

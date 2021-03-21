@@ -1,38 +1,28 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="row container">
-    <div class="container col-md-8">
-        <div class="title">
-            <h2>Welcome to our website</h2>
-            <span class="byline">Mauris vulputate dolor sit amet nibh</span> </div>
-        <p><img src="images/banner.jpg" alt="" class="img-fluid" /> </p>
-        <p>Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. </p>
-        <p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo.</p>
-        <p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo.</p>
-    </div>
-    <div class="container col-md-4">
-        <div id="stwo-col">
-            <div class="sbox1">
-                <h2>Etiam rhoncus</h2>
-                <ul class="style2">
-                    <li><a href="#">Semper quis egetmi dolore</a></li>
-                    <li><a href="#">Quam turpis feugiat dolor</a></li>
-                    <li><a href="#">Amet ornare hendrerit lectus</a></li>
-                    <li><a href="#">Quam turpis feugiat dolor</a></li>
-                </ul>
+<div class="about container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="container">
+                <h2>Welkom op onze website</h2>
+                <span>Tahani Alhammad</span>
             </div>
-            <div class="sbox2">
-                <h2>Integer gravida</h2>
-                <ul class="style2">
-                    <li><a href="#">Semper quis egetmi dolore</a></li>
-                    <li><a href="#">Quam turpis feugiat dolor</a></li>
-                    <li><a href="#">Consequat lorem phasellus</a></li>
-                    <li><a href="#">Amet turpis feugiat amet</a></li>
+            <img src="images/linkedin.jpg" alt="" class="img-fluid mb-2" />
+            <p>Ik ben Tahani Alhammad woon in Groningen en kom oorspronkelijk uit Irak, waar ik computer engineer was. Bestond mijn werk daar voornamelijk uit onderzoek naar o.a. netwerkapparaten, inmiddels weet ik dat ik de kant van front end developer op wil. Hoewel mijn passie daar ligt, heb ik ook interesse in de back end-kant van programmeren. Ik vond CodeGorilla-avontuur als een van de tofste dingen die ik ooit heeft gedaan. Mijn programmertalen zijn : HTML5/CSS3, SASS, Bootstrap, JS, NodeJS, Express, EJS, VueJs, JSON, Mongoose, MongoDB, PHP, MySQL en Laravel</p>
+        </div>
+        <div class="col-md-4">
+            <div class="container">
+                <ul class="list-group">
+                    @foreach ($articles as $article)
+                    <li class="list-group-item">
+                        <h3><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></h3>
+                        <p>{{ $article->excerpt }}</p>
+                    </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
     </div>
 </div>
-
 @endsection
