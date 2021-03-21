@@ -11059,6 +11059,16 @@ a.text-dark:focus {
   color: #ec1c23;
 }
 
+/* Choose-us */
+
+.choose-us .col-md-6 {
+  padding: 0;
+}
+
+.choose-us .col-md-6:last-child {
+  background-color: #08526d;
+}
+
 /* Testimonials */
 
 .testimonials {
@@ -11095,6 +11105,23 @@ a.text-dark:focus {
   right: 0;
   padding: 100px 20px;
   z-index: 15;
+}
+
+/*Contact Us*/
+
+.contact-us {
+  background: #ec1c23;
+}
+
+.btn-outline-primary {
+  color: white;
+  border-color: white;
+  border-radius: 0;
+}
+
+.btn-outline-primary:hover {
+  background-color: white;
+  color: #ec1c23;
 }
 
 

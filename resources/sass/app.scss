@@ -132,6 +132,10 @@
 /* All cards */
 .card-link{color: $secolor;}
 
+/* Choose-us */
+.choose-us .col-md-6{padding: 0;}
+.choose-us .col-md-6:last-child{background-color: $prcolor;}
+
 
 /* Testimonials */
 .testimonials{
@@ -146,3 +150,10 @@
 .testimonials .inner-item{position:relative; margin:100px 20px 20px;border-radius:20px;}
 .testimonials .carousel-item img{width:150px; border-radius:50%; position:absolute; top:-75px; left:50%; transform:translateX(-50%); }
 .testimonials .carousel-caption{position:relative; top:0; bottom:0; left:0; right:0; padding:100px 20px; z-index: 15;}
+
+/*Contact Us*/
+.contact-us{background: $secolor;}
+//Button
+.btn-outline-primary{color: white; border-color: white;border-radius: 0;}
+.btn-outline-primary:hover{background-color: white; color: $secolor;}
+

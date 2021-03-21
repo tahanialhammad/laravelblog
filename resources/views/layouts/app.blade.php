@@ -40,7 +40,7 @@
         @yield('header-feature')
     </header>
 
-    <main class="container-fluid">
+    <main>
         @yield('content')
     </main>
     <!-- Footer Content -->

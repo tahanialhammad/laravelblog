@@ -109,6 +109,21 @@
     </div>
     <!-- End Featured-Work  -->
 
+    <!-- Start Choose-us -->
+    <div class="choose-us container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img  class="img-fluid" src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80" alt="">
+            </div>
+            <div class="col-md-6 p-5 text-white">
+                <h2>Why Choose us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit in modi. Ea praesentium aperiam culpa odio quibusdam maiores architecto possimus quasi nostrum labore fuga necessitatibus, dignissimos, velit assumenda voluptatem.<br> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nobis ex autem modi in dolorum ad aspernatur? Iste accusantium amet debitis, maiores sint expedita quisquam non perferendis quos incidunt reprehenderit.</p>
+                <button class="text-uppercase btn btn-primary mt-4">View More</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Choose-us -->
+
     <!-- Start Latest Post  -->
     <div class="latest-post text-center p-5">
         <div class="container">
@@ -174,6 +189,23 @@
         </div>
     </div>
     <!-- End Testimonials 2 -->
+
+    <!-- Start Contact-us -->
+    <div class="contact-us">
+        <div class="container p-4">
+            <div class="row my-4 ">
+                <div class="col-md-8 text-white">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                </div>
+                <div class="col-md-4">
+                    <button class="text-uppercase btn btn-outline-primary">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact-us -->
+
+
 
 </div>
 @endsection
