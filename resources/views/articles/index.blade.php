@@ -3,15 +3,18 @@
 @section('content')
 
 <!-- Start Article -->
-<div class="container">
+<div class="container card-group article">
     @foreach ($articles as $article)
-    <div>
-        <div class="title">
-            <h3><a href="{{ $article->path() }}">{{ $article->title }}</a></h3>
-
+    <div class="col-md-6 p-2">
+        <div class="card bg-dark text-white" >
+        <div class="overlay"></div>
+            <img src="{{ $article->image }}" class="card-img" style="height: 15rem;" alt="{{ $article->title }}">
+            <div class="card-img-overlay" style="z-index: 3;">
+                <h3><a href="{{ $article->path() }}">{{ $article->title }}</a></h3>
+                <p class="card-text">{{ $article->excerpt }}</p>
+                <p class="card-text">Last updated 3 mins ago</p>
+            </div>
         </div>
-        <img src="{{ $article->image }}" alt="{{ $article->title }}" class="img-fluid" />
-        <p>{{ $article->excerpt }}</p>
     </div>
     @endforeach
 </div>
