@@ -2,11 +2,11 @@
 <nav class="upper-bar">
     <div class="container p-2 text-white">
         <div class="row justify-content-around">
-            <div class="col-sm">
+            <div class="col-sm text-center">
                 <i class="fa fa-phone"></i> 0625487
                 <i class="far fa-envelope"></i>tahani_alhammad@yahoo.com
             </div>
-            <div class="col-sm">
+            <div class="col-sm text-center">
                 Nederland | Groningen
             </div>
         </div>

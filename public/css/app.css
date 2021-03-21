@@ -10961,6 +10961,8 @@ a.text-dark:focus {
   color: #ec1c23;
 }
 
+/*Main slider*/
+
 .slider .carousel-inner h1 {
   position: absolute;
   color: white;
@@ -10984,7 +10986,7 @@ a.text-dark:focus {
   z-index: 2;
 }
 
-.carousel-item {
+.slider .carousel-item {
   max-height: 80vh;
   overflow: hidden;
   color: white;
