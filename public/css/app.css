@@ -10944,6 +10944,8 @@ a.text-dark:focus {
   }
 }
 
+/* Upper bar */
+
 .upper-bar {
   background-color: #08526d;
 }
@@ -10987,6 +10989,8 @@ a.text-dark:focus {
   overflow: hidden;
   color: white;
 }
+
+/* Features */
 
 .features i {
   background-color: #ec1c23;
@@ -11122,6 +11126,32 @@ a.text-dark:focus {
 .btn-outline-primary:hover {
   background-color: white;
   color: #ec1c23;
+}
+
+/* Footer */
+
+footer a {
+  color: #08526d;
+}
+
+footer a:hover {
+  color: #ec1c23;
+}
+
+footer .info a::before {
+  font-family: "FontAwesome";
+  content: "";
+  display: inline-block;
+}
+
+footer .helpful-links ul li a::before {
+  font-family: "FontAwesome";
+  content: "";
+  display: inline-block;
+}
+
+.copyright a {
+  margin-right: 1.5rem;
 }
 
 
