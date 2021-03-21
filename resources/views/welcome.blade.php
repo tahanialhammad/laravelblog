@@ -114,22 +114,21 @@
         <div class="container">
             <h2 class="text-uppercase mb-4">Laatste artikels</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et, debitis est itaque nobis animi enim provident dolorem ullam eum officia soluta doloribus explicabo dolorum, magnam odit sint reiciendis porro.</p>
-            <div class="row">
+            <!-- Start Card Group-->
+            <div class="card-group">
                 @foreach ($articles as $article)
-                <div class="col-sm-6 col-md-4">
-                <div class="card">
-                    <img src="{{ $article->image }}" alt="{{ $article->title }}" class="card-img-top">
-                    <div class="card-body text-start">
-                        <h5 class="card-title">{{ $article->title }}</h5>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">{{ $article->user->name }}</h6> -->
-                        <h6 class="card-subtitle mb-2 text-muted">{{ $article->created_at}}</h6>
-                        <p class="card-text text-truncate">{{ $article->body }}</p>
-                        <a href="{{ $article->path() }}" class="card-link">Verder lezen</a>
+                <div class="card mx-2">
+                    <img src="{{ $article->image }}" class="card-img-top" alt="{{ $article->title }}">
+                    <div class="card-body">
+                    <h5 class="card-title">{{ $article->title }}</h5>
+                    <p class="card-text text-truncate">{{ $article->body }}</p>
+                    <p class="card-text"><small class="text-muted">{{ $article->created_at}}</small></p>
+                    <a href="{{ $article->path() }}" class="card-link">Verder lezen</a>
                     </div>
-                </div>
                 </div>
                 @endforeach
             </div>
+            <!--End card Group-->
         </div>
     </div>
     <!-- End Latest Post  -->
