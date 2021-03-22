@@ -52,10 +52,10 @@
     <div class=" copyright border-top">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-6 text-center text-sm-left">
                     <p>&copy; LaravelBlog | <a href="https://codegorilla.nl/">CodeGorilla</a> | Design by <a href="https://www.linkedin.com/in/tahanialhammad/">Tahani Alhammad</a>.</p>
                 </div>
-                <div class="col text-right">
+                <div class="col-sm-6 text-center text-sm-right">
                     <a href="#" target="_blank"><i class="fab fa-facebook"></i></i></a>
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
