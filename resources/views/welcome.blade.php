@@ -193,10 +193,10 @@
     <div class="contact-us">
         <div class="container p-4">
             <div class="row my-4 ">
-                <div class="col-md-8 text-white">
+                <div class="col-md-8 text-center text-md-left text-white">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center text-md-right">
                     <button class="text-uppercase btn btn-outline-primary">Contact us</button>
                 </div>
             </div>
