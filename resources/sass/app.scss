@@ -150,3 +150,11 @@ footer{
     margin-right: 1.5rem;
 }
 
+/* Article */
+.article{
+    a{
+    color: $secolor;
+    &:hover{color: $prcolor;}
+    }
+    h2{color: $prcolor;}
+}

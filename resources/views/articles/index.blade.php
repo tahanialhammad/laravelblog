@@ -12,7 +12,7 @@
             <div class="card-img-overlay" style="z-index: 3;">
                 <h3><a href="{{ $article->path() }}">{{ $article->title }}</a></h3>
                 <p class="card-text">{{ $article->excerpt }}</p>
-                <p class="card-text">Last updated 3 mins ago</p>
+                <p class="card-text text-muted">Last updated {{$article->updated_at}}</p>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container article">
     <div>
         <h2>{{ $article->title }}</h2>
         <span class="text-muted">Posted by {{ $article->user->name }} </span>
@@ -13,7 +13,7 @@
     <div>
         <p>
             @foreach ($article->tags as $tag)
-            <a class="badge bg-secondary" href="{{ route('articles.index', [ 'tag'=> $tag->name ]) }}">{{ $tag->name }}</a>
+            <a class="btn btn-outline-primary btn-sm" href="{{ route('articles.index', [ 'tag'=> $tag->name ]) }}"><i class="fas fa-tag"></i> {{ $tag->name }}</a>
             @endforeach
         </p>
     </div>

@@ -11162,4 +11162,18 @@ footer .helpful-links ul li a::before {
   margin-right: 1.5rem;
 }
 
+/* Article */
+
+.article a {
+  color: #ec1c23;
+}
+
+.article a:hover {
+  color: #08526d;
+}
+
+.article h2 {
+  color: #08526d;
+}
+
 
