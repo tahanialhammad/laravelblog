@@ -10961,7 +10961,7 @@ a.text-dark:focus {
   color: #ec1c23;
 }
 
-/*Main slider*/
+/* Main slider */
 
 .slider .carousel-inner h1 {
   position: absolute;
@@ -10976,6 +10976,12 @@ a.text-dark:focus {
   padding: 2px 10px;
 }
 
+.slider .carousel-item {
+  max-height: 80vh;
+  overflow: hidden;
+  color: white;
+}
+
 .overlay {
   position: absolute;
   height: 100%;
@@ -10984,12 +10990,6 @@ a.text-dark:focus {
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 2;
-}
-
-.slider .carousel-item {
-  max-height: 80vh;
-  overflow: hidden;
-  color: white;
 }
 
 /* Features */
@@ -11012,6 +11012,8 @@ a.text-dark:focus {
   margin-bottom: 30px;
 }
 
+/* overview */
+
 .overview {
   background-color: #f0f5f7;
 }
@@ -11028,6 +11030,8 @@ a.text-dark:focus {
 .btn-primary:hover {
   background-color: #08526d;
 }
+
+/* featured-work */
 
 .featured-work ul li {
   color: #ec1c23;
@@ -11118,6 +11122,8 @@ a.text-dark:focus {
 .contact-us {
   background: #ec1c23;
 }
+
+/* Button */
 
 .btn-outline-primary {
   color: white;
