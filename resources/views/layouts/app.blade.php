@@ -33,7 +33,7 @@
 </head>
 
 <body>
-
+<div id="app">
     <header>
         @include('layouts.navigation')
 
@@ -46,6 +46,7 @@
     <!-- Footer Content -->
     <div>@include('layouts.footer')</div>
     @yield('scripts')
+</div>
 </body>
 
 </html>
