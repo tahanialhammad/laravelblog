@@ -1,5 +1,8 @@
 <footer>
     <div class="container">
+        <div class="text-right">
+            <scroll-link href="#app" class="btn btn-primary btn-sm rounded-circle"><i class="fas fa-arrow-circle-up"></i></scroll-link>
+        </div>
         <div class="row my-4">
             <div class="col-md-4">
                 <div class="info">
