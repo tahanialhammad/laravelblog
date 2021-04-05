@@ -5,12 +5,12 @@
                 <div class="info">
                     <h3><a class="footer-brand" href="/">{{ config('app.name', 'Laravel') }}</a></h3>
                     <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, sequi iure, hic eius veritatis est distinctio, velit praesentium ipsa amet expedita! Nostrum fugiat accusantium, amet suscipit laudantium eveniet ipsum ducimus?</p>
-                    <a href="#" class="mt-0"><i class="fas fa-plus-circle"></i> Read more</a>
+                    <a href="/about" class="mt-0"><i class="fas fa-plus-circle"></i> Read more</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="helpful-links">
-                    <h3>Helpful Links</h3>
+                    <h3>Snelle links</h3>
                     <div class="row">
                         <div class="col">
                             <ul class="list-unstyled">
@@ -35,7 +35,7 @@
             </div>
             <div class="col-md-4">
                 <div class="contact ">
-                    <h3>Contact Us</h3>
+                    <h3>Contact Info</h3>
                     <address>
                         <ul class="list-unstyled">
                             <li><a href="#"><i class="fas fa-map-marker-alt"></i>Nederland | Groningen</a></li>
