@@ -33,13 +33,13 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-6 col-lg-3">
-                    <i class="fas fa-home fa-2x rounded-circle"></i>
+                    <i class="fas fa-hands-helping fa-2x rounded-circle"></i>
                     <h3>Duidelijke deal</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <i class="fas fa-drafting-compass fa-2x rounded-circle"></i>
-                    <h3>Reagerend ontwerp</h3>
+                    <h3>Responsive ontwerp</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum numquam laboriosam est quas.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3">
@@ -63,7 +63,7 @@
             <h2 class="text-uppercase mb-4">Bedrijfsoverzicht</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, incidunt veritatis dicta cumque, accusantium numquam modi delectus consequuntur itaque harum deleniti fugiat laudantium sed cupiditate quia iste laborum! Neque, harum?</p>
             <h4 class="text-capitalize fw-lighter my-4">Laten we vandaag beginnen</h4>
-            <button class="text-uppercase btn btn-primary">Bekijk meer</button>
+            <a href="/articles" class="text-uppercase btn btn-primary">Bekijk meer</a>
         </div>
     </div>
     <!-- End Overview  -->
@@ -115,7 +115,7 @@
                 <img  class="img-fluid" src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80" alt="">
             </div>
             <div class="col-md-6 p-5 text-white">
-                <h2>Why Choose us</h2>
+                <h2>Waarom voor ons kiezen</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit in modi. Ea praesentium aperiam culpa odio quibusdam maiores architecto possimus quasi nostrum labore fuga necessitatibus, dignissimos, velit assumenda voluptatem.<br> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nobis ex autem modi in dolorum ad aspernatur? Iste accusantium amet debitis, maiores sint expedita quisquam non perferendis quos incidunt reprehenderit.</p>
                 <button class="text-uppercase btn btn-primary mt-4">View More</button>
             </div>
@@ -126,7 +126,7 @@
     <!-- Start Latest Post  -->
     <div class="latest-post text-center p-5">
         <div class="container">
-            <h2 class="text-uppercase mb-4">Laatste artikels</h2>
+            <h2 class="text-uppercase mb-4">Laatste artikelen</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et, debitis est itaque nobis animi enim provident dolorem ullam eum officia soluta doloribus explicabo dolorum, magnam odit sint reiciendis porro.</p>
             <!-- Start Card Group-->
             <div class="card-group">
@@ -161,7 +161,7 @@
                         <div class="inner-item">
                             <img src="http://themes.hody.co/html/bezel/images/testimonial-1.jpg" class="d-block" alt="...">
                             <div class="carousel-caption">
-                                <h5>First slide label</h5>
+                                <h5>N.Alhammad</h5>
                                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </div>
                         </div>
@@ -170,7 +170,7 @@
                         <div class="inner-item">
                             <img src="http://themes.hody.co/html/bezel/images/testimonial-2.jpg" class="d-block" alt="...">
                             <div class="carousel-caption">
-                                <h5>Second slide label</h5>
+                                <h5>H. Mirza</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
@@ -193,11 +193,11 @@
     <div class="contact-us">
         <div class="container p-4">
             <div class="row my-4 ">
-                <div class="col-md-8 text-white">
+                <div class="col-md-8 text-center text-md-left text-white">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
                 </div>
-                <div class="col-md-4">
-                    <button class="text-uppercase btn btn-outline-primary">Contact us</button>
+                <div class="col-md-4 text-center text-md-right">
+                    <button class="text-uppercase btn btn-outline-primary">Neem contact op</button>
                 </div>
             </div>
         </div>

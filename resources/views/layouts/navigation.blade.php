@@ -28,13 +28,13 @@
                     <a class="nav-link {{ Request::path() === 'home' ? 'active' : ''}}" aria-current="page" href="/home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Request::path() === 'about' ? 'active' : ''}}" href="/about">About us</a>
+                    <a class="nav-link {{ Request::path() === 'about' ? 'active' : ''}}" href="/about">Over ons</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Request::path() === 'articles' ? 'active' : ''}}" href="/articles">Articles</a>
+                    <a class="nav-link {{ Request::path() === 'articles' ? 'active' : ''}}" href="/articles">Artikelen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Request::path() === 'articles/create' ? 'active' : ''}}" href="/articles/create">New Articles</a>
+                    <a class="nav-link {{ Request::path() === 'articles/create' ? 'active' : ''}}" href="/articles/create">Nieuw Artikel</a>
                 </li>
             </ul>
             <!-- Right Side Of Navbar -->
