@@ -21,6 +21,7 @@ window.Vue = require('vue').default;
 
 Vue.component('scroll-link', require('./components/ScrollLink.vue').default); //Golbal in project
 Vue.component('Info', require('./components/Info.vue').default); //Golbal in project
+Vue.component('Icons', require('./components/Icons.vue').default); //Golbal in project
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
