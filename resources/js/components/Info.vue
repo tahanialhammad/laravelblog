@@ -6,9 +6,9 @@
           <slot name="lastname"></slot>
           <slot></slot>
       </h5>
-        <ul>
+        <!-- <ul>
             <li v-for="skill in skills" v-text="skill"></li>
-        </ul>
+        </ul> -->
         <div>
             <h5>{{city}}</h5>
             <span>{{address}}</span>
