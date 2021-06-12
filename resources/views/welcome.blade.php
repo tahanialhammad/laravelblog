@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
+<button class="btn btn-dark">test</button>
     <!-- Start Slider -->
     <div class="slider">
         <div id="main-slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
