@@ -1,3 +1,8 @@
+$theme-colors: (
+
+  "dark":rgb(67, 211, 79)
+);
+@import "node_modules/bootstrap/scss/bootstrap";
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 

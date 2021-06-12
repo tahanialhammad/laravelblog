@@ -1854,6 +1854,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: [],
   data: function data() {
@@ -38059,14 +38060,6 @@ var render = function() {
         _vm._t("default")
       ],
       2
-    ),
-    _vm._v(" "),
-    _c(
-      "ul",
-      _vm._l(_vm.skills, function(skill) {
-        return _c("li", { domProps: { textContent: _vm._s(skill) } })
-      }),
-      0
     ),
     _vm._v(" "),
     _c("div", [
