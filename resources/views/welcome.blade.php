@@ -1,7 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="m-4 ">
 <button class="btn btn-dark">test</button>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+</div>
+</div>
     <!-- Start Slider -->
     <div class="slider">
         <div id="main-slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
